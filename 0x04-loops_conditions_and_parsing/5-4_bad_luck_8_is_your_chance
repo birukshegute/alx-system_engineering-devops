@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# iterating using while loop
+# iterating 5-4_bad_luck_8_is_your_chance using while loop
 i=0
 while  ((i<=9));
 do

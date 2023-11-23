@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# iterating using while loop
+# iterating using Until loop
 i=0
 until  ((i == 10));
 do

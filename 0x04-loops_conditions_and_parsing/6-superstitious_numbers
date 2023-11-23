@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# iterating using while loop
+# iterating 6-superstitious_numbers using while loop
 i=1
 while  ((i<= 20));
 do

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# iterating using while loop
+# iterating 7-clock using while loop
 i=0
 while  ((i<= 12));
 do
