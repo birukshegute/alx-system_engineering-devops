@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# iterating using while loop
+i=0
+while  ((i<= 9));
+do
+        echo Best School
+	((i++))
+done
