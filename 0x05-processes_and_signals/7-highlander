@@ -1,0 +1,9 @@
+i#!/usr/bin/env bash
+# Infinite loop Bash Script
+i=2
+while ((i < 10));
+do
+        echo To infinity and beyond
+        sleep 2
+	trap "echo 'I am invincible!!!'" SIGTERM
+done
