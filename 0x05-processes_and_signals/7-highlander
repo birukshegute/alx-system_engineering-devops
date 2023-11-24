@@ -1,4 +1,4 @@
-i#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Infinite loop Bash Script
 i=2
 while ((i < 10));
