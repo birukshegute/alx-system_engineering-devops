@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Displaying the PID of all Processes
+# Displaying the PID of all Scripts with bash key word using grep.
 # shellcheck disable=SC2009
 ./1-list_your_processes | grep bash
