@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Killing an invinsinble Infinite loop Bash Script with pkill
+pkill -9 -f highlander
