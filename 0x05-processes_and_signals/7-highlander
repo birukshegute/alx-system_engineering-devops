@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Infinite loop Bash Script
+# Infinite loop Bash Script that can beat SIGTERM
 i=2
 while ((i < 10));
 do
