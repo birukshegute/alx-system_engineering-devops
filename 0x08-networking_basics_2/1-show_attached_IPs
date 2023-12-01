@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Showing the list of all IPs
+hostname -I | tr " " "\n" | grep . | cat -e
