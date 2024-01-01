@@ -26,7 +26,7 @@ The primary is the only member in the replica set that receives write operations
 
 ## The issues with this infrastructure:
 
-SPOF: THe primary MySQL server is a SPOF as the replica can't perform any write operation on the data. Also the Load balancer server is SPOF as the system will be interrupted without the load balancer.
+SPOF: The primary MySQL server is a SPOF as the replica can't perform any write operation on the data. Also the Load balancer server is SPOF as the system will be interrupted without the load balancer.
 
 ## Security issues:
 
