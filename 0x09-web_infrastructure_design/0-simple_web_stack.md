@@ -1,3 +1,6 @@
+## The model:
+https://imgur.com/a/v78jViN
+
 ## A Server:
 A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.
 
