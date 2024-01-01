@@ -34,4 +34,4 @@ SPOF: The infrastracture has only one Web Server, one Application Server and one
 
 Downtime when maintenance needed: Since there is no duplication in the server side, when there is a maintenance in the server side, there will be system interruption.
 
-Cannot scale if too much incoming traffic: Since there are no multiple servers in the server side, and there is no load balancing, if the server has too many requests, then it will be inefficient and slow.
+Cannot scale if too much incoming traffic: Since there are no multiple servers in the server side, and there is no load balancing because of that, if the server has too many requests, then it will be inefficient and slow.
