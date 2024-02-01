@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# script for shorter version of previous task via daemon manager
-service nginx start
+# Script for shorter version of previous task via daemon manager
+mv /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default 
 pkill nginx
