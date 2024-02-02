@@ -2,5 +2,4 @@
 # Script for shorter version of previous task via daemon manager
 mv /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
-service nginx restart
 pkill nginx
