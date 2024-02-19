@@ -18,6 +18,6 @@ if __name__ == '__main__':
         writeFile = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         for task in tasks:
             writeFile.writerow([int(Id),
-                                   username,
-                                   task.get('completed'),
-                                   task.get('title')])
+                                username,
+                                task.get('completed'),
+                                task.get('title')])
