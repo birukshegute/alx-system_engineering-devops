@@ -6,10 +6,10 @@ import requests
 from sys import argv
 
 
-if __name__ == "__main__"
+if __name__ == '__main__':
     url = 'https://jsonplaceholder.typicode.com/'
     response = requests.get(url+'todos/')
-    data = response().json
+    data = response.json()
     done = 0
     total = 0
     task = []
