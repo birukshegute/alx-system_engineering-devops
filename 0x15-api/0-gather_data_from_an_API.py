@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     for i in data:
         if i.get('userId') == int(argv[1]):
-            totali += 1
+            total += 1
 
             if i.get('completed') is True:
                 done += 1
