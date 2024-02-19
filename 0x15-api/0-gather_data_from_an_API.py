@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A Py script for a given employee ID, 
+""" A Py script for a given employee ID,
 returns information about his/her TODO list progress """
 
 import requests
@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     for i in data:
         if i.get('userId') == int(argv[1]):
-            total+=1
+            totali += 1
 
             if i.get('completed') is True:
                 done += 1
