@@ -14,9 +14,9 @@ if __name__ == "__main__":
     username = user.get('username')
     tasks = requests.get(url+"users/{}/todos".format(Id)).json()
     task = [{"task": task.get("title"),
-              "completed": task.get("completed"),
-              "username": username} for task in tasks]
+             "completed": task.get("completed"),
+             "username": username} for task in tasks]
     data = {}
     data[Id] = task
     with open("{}.json".format(Id), 'w') as filejs:
-            json.dump(data, filejs)
+        json.dump(data, filejs)
