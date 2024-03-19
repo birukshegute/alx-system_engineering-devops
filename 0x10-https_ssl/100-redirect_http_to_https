@@ -32,6 +32,10 @@ defaults
         errorfile 502 /etc/haproxy/errors/502.http
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
+frontend http
+    bind *:80
+    http-request redirect scheme https code 301 unless { ssl_fc }
+    default_backend web-backend
 frontend https
     bind *:443 ssl crt /etc/haproxy/certs/www.birukshe.tech.pem
     default_backend web-backend
